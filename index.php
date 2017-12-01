@@ -174,7 +174,9 @@
                             echo '<option value="'. $row2['lokacija'] .'">' .$row2['lokacija']. '</option>';
                         }
                     ?>
+                        
                     </select></div>
+                <div class ="text3" id="xls"><a href ="izvozPodatkov.php"> Izvozi csv vseh prostorov</a></div>	
                             </div><div id="tretina">
                 <div class="text2">Najemnina
                     od:</div><div class="box2"><input type="text" name="najemninaod"></div>
@@ -207,12 +209,10 @@
 					</div>
 				</div>
  <?php }?>
-			
 
 	
 	
 	<footer id="fh5co-footer" role="contentinfo">
-	
 		<div class="container">
 			<div class="col-md-3 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
 				<h3>About Us</h3>

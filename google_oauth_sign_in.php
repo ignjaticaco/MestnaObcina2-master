@@ -6,7 +6,7 @@ require 'db.php';
 
 $id_token = $_POST['idtoken'];
 
-if(!empty($id_token))
+if(isset($id_token))
 {
     try {
         $client = new Google_Client(['client_id' => "548013672380-r075g6cgqk4ekjgikkktmimk1qlo90r0.apps.googleusercontent.com"]);
